@@ -4,26 +4,35 @@
             <span :class="{typed: (index + 1) <= typeWorldLength}" v-for="(char, index) in displayCharacters" :key="index">{{ char }}</span>
         </h1>
         <h1 class="expression" v-else>
-            Type "start" to begin
+            Type "start" to begin 
         </h1>
+        
     </div>
 </template>
 
 <script>
     import { mapGetters, mapState, mapMutations } from 'vuex';
     export default {
+        data () {
+    return {
+        test : 0.0
+    }
+},
         computed: {
             ...mapGetters([
                 'hasError',
                 'typeWorldLength',
-                'displayCharacters'
+                'displayCharacters' 
             ]),
             ...mapState(['word', 'input', 'isRunning'])
         },
         methods: {
             ...mapMutations([
                 'START', 'STOP', 'NEXT_PLEASE', 'PAUSE', 'RESUME'
-            ])
+            ]),
+            dks () {
+      return 300 - this.word.length
+    },
         },
         watch: {
             input(text) {

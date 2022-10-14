@@ -1,21 +1,4 @@
 export default [
-    'echo "hello word";',
-    'print "stay home!"',
-    'let person = "i don\'t know";',
-    '__("i am a programmer and i have no life")',
-    'System.out.println("stay home!")',
-    'listen(\'i\'m a programmer and doesn\'t mean i have to fix your pc\');',
-    '{{ \'404! sob rice chairman churi kore niye geche\' }}',
-    'wp_die("please stop writing useless code");',
-    'quote("if you think the job is crap, wait\'til you see the pay");',
-    'fmt.Println("work from home")',
-    'dd(\'my code works, i have no idea why\');',
-    'exac("talk\'s cheap show me the code");',
-    '__(\'a machine that converts coffee into code\', \'programmer\');',
-    'echo \'code is poetry\';',
-    'dispatch(\'it\'s not a bug. it\'s an undocumented feature!\');',
-    'print_f("my code doesn\'t work, i have no idea why");',
-    '1st rule of programming - if it works don\'t touch it',
-    'cout << \'keyboard not found! press any key to continue\';',
-    'import crocodile from \'the-canal\'',
+    "Ashwini",
+    "Amruta","vandana","tanu","sarika","bitts","nehu","yogesh","prajakta","dada","pinky","pritesh","prachi","dhondi"
 ]

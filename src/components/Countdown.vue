@@ -1,6 +1,6 @@
 <template>
     <div class="countdown">
-        <h2 v-html="countdown"></h2>
+        <h2 v-html="countdown">test</h2>
         <h2>
             <span class="correct">{{ correct }}</span> - <span class="wrong">{{ wrong }}</span>
         </h2>

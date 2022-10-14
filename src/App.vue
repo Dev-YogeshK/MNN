@@ -2,7 +2,7 @@
   <div id="app">
       <Typing/>
       <div class="credit">
-          <p>Created by: <a :href="links[0]" target="_blank">Mehedi Hasan</a></p>
+          <p>Created by: <a :href="links[0]" target="_blank">Yogesh Kale</a></p>
       </div>
   </div>
 </template>
